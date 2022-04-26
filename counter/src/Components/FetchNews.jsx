@@ -33,13 +33,11 @@ const FetchNews = () => {
             return (
               <div className="col-4">
                 <div className="card" style={{ width: "18rem" }}>
-                  <img src="..." className="card-img-top" alt="..." />
+                  <img src={value.urlToImage} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">{value.title}</h5>
                     <p className="card-text">{value.description}</p>
-                    <a href="#" className="btn btn-primary">
-                      Go somewhere
-                    </a>
+                    <a href="#" className="btn btn-primary">Main source</a>
                   </div>
                 </div>
               </div>
